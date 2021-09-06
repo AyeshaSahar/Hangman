@@ -11,7 +11,7 @@ def get_valid_word(words):
     return word.upper()
 
 
-def hangman():
+def hangm():
     word = get_valid_word(words)
     word_letters = set(word)  # letters in the word
     alphabet = set(string.ascii_uppercase)
